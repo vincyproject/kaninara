@@ -37,7 +37,7 @@ const List = () => {
 
   return (
     <div className='list add flex-col'>
-      <p>All Foods List</p>
+      <p>All Flower List</p>
       <div className='list-table'>
         <div className="list-table-format title">
           <b>Image</b>
@@ -52,7 +52,7 @@ const List = () => {
               <img src={`${url}/images/` + item.image} alt="" />
               <p>{item.name}</p>
               <p>{item.category}</p>
-              <p>{currency}{item.price}</p>
+              <p>{currency}{item.price}k</p>
               <p className='cursor' onClick={() => removeFood(item._id)}>x</p>
             </div>
           )

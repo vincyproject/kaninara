@@ -1,0 +1,64 @@
+/* Container full-width background */
+.flowers-container {
+    background-color: #ffeef1; /* Light pink background */
+    padding: 40px 0;
+    text-align: center;
+    width: 100vw; /* Full width of the viewport */
+    margin-left: calc(-50vw + 50%); /* Ensures the background spans the full width */
+    padding-left: calc(50vw - 50%); /* Center the content within the background */
+    padding-right: calc(50vw - 50%);
+  }
+  
+  .flowers-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c2c2c; /* Dark text */
+    margin-bottom: 20px;
+  }
+  
+  .flowers-cards {
+    display: flex;
+    justify-content: space-evenly; /* Distribute cards evenly */
+    gap: 20px;
+    max-width: 1200px; /* Optional: restrict the maximum width of the content */
+    margin: 0 auto; /* Center content horizontally */
+  }
+  
+  .flower-card {
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .flower-card h2 {
+    font-size: 1.25rem;
+    color: #2c2c2c;
+    margin-bottom: 10px;
+  }
+  
+  .flower-card p {
+    font-size: 1rem;
+    color: #6d6d6d;
+    margin-bottom: 20px;
+  }
+  
+  .browse-button {
+    background-color: #ff4081;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .browse-button:hover {
+    background-color: #e0006e;
+  }
+  

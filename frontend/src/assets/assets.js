@@ -61,8 +61,16 @@ import logout_icon from './logout_icon.png'
 import parcel_icon from './parcel_icon.png'
 import checked from './checked.png'
 import un_checked from './un_checked.png'
+import Footer from '../components/Footer/Footer'
+import hg1 from './hg-1.svg'
+import hg2 from './hg-2.svg'
+import hg3 from './hg-3.svg'
+import hg4 from './hg-4.svg'
+import flo1 from './flo1.png'
+import flo2 from './flo2.png'
 
 export const assets = {
+    Footer,
     logo,
     basket_icon,
     header_img,
@@ -83,41 +91,43 @@ export const assets = {
     bag_icon,
     parcel_icon,
     checked,
-    un_checked
+    un_checked,
+    hg1,
+    hg2,
+    hg3,
+    hg4,
+    flo1,
+    flo2
 }
 
 export const menu_list = [
     {
-        menu_name: "Salad",
+        menu_name: "Small",
         menu_image: menu_1
     },
     {
-        menu_name: "Rolls",
+        menu_name: "Medium",
         menu_image: menu_2
     },
     {
-        menu_name: "Deserts",
+        menu_name: "Large",
         menu_image: menu_3
     },
     {
-        menu_name: "Sandwich",
+        menu_name: "XL & XXL",
         menu_image: menu_4
     },
     {
-        menu_name: "Cake",
+        menu_name: "Round Bouquet",
         menu_image: menu_5
     },
     {
-        menu_name: "Pure Veg",
+        menu_name: "Flower Bag",
         menu_image: menu_6
     },
     {
-        menu_name: "Pasta",
+        menu_name: "Single Flowers",
         menu_image: menu_7
-    },
-    {
-        menu_name: "Noodles",
-        menu_image: menu_8
     }]
 
 export const food_list = [
