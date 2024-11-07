@@ -1,15 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 .get-deals {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     background-image: url('../../assets/assets/deals.jpg'); /* Sesuaikan dengan path dari assets Anda */
-    background-size: contain; /* Mengatur ukuran gambar agar sesuai dengan area yang tersedia */
+    background-size:auto; /* Mengatur ukuran gambar agar sesuai dengan area yang tersedia */
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh; /* Mengatur tinggi minimum agar memenuhi layar */
     padding: 20px;
     margin: 0; /* Menghilangkan margin luar untuk mencegah efek border */
+    width: 100vw;
+
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+    left: 50%; /* Menggeser elemen ke tengah */
+    right: 50%; /* Menggeser elemen ke tengah */
+    margin-left: -50vw; /* Menghapus margin default */
+    margin-right: -50vw; /* Menghapus margin default */
+    margin-bottom: -8vw;
   }
   
   .content {
