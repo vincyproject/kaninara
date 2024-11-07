@@ -1,0 +1,76 @@
+.review-bouquet {
+    background-color: #FFE6E6; /* Warna background keseluruhan */
+    text-align: center;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+    width: 100vw; /* Lebar penuh viewport */
+    position: relative;
+    left: 50%; /* Menggeser elemen ke tengah */
+    right: 50%; /* Menggeser elemen ke tengah */
+    margin-left: -50vw; /* Menghapus margin default */
+    margin-right: -50vw; /* Menghapus margin default */
+}
+
+.title {
+    font-size: 32px;
+    color: #2F2F2F;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    color: #707070;
+    margin-bottom: 30px;
+}
+
+.bouquet-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+    flex-wrap: wrap;
+    max-width: 1200px; /* Batas maksimal lebar konten */
+    margin: 0 auto; /* Mengatur agar konten di tengah */
+    padding: 0 20px; /* Memberikan padding di sisi kiri dan kanan */
+}
+
+.bouquet-card {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.bouquet-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.bouquet-name {
+    font-size: 18px;
+    color: #2F2F2F;
+    margin-top: 10px;
+}
+
+.bouquet-price {
+    font-size: 18px;
+    color: #FF4081;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.bouquet-button {
+    background-color: #FF4081;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.bouquet-button:hover {
+    background-color: #e0356e;
+}

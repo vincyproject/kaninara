@@ -68,6 +68,7 @@ import hg3 from './hg-3.svg'
 import hg4 from './hg-4.svg'
 import flo1 from './flo1.png'
 import flo2 from './flo2.png'
+import deals from './deals.jpg'
 
 export const assets = {
     Footer,
@@ -97,7 +98,8 @@ export const assets = {
     hg3,
     hg4,
     flo1,
-    flo2
+    flo2,
+    deals
 }
 
 export const menu_list = [

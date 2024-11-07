@@ -6,10 +6,16 @@ const Floral = () => {
   return (
     <div className="floral-section">
       <div className="floral-content">
-        <h1 className="floral-title">The Art of Floral Expression</h1>
+        <h1 className="floral-title">Blossom, Love, Memorable</h1>
         <p className="floral-description">
-          Most flowering plants depend on animals, such as bees, moths, and butterflies, 
-          to transfer their pollen between different flowers, and have evolved to attract these pollinators.
+        Blossom, a dream Kaninara continues to nurture
+        Love, the essence in each arrangement, crafted with care, 
+        and shared warmly with every customer and recipient. 
+        Through quality blooms and heartfelt design, 
+        Kaninara aspires to bring moments of joy. 
+        Every bouquet becomes a cherished memory, 
+        a meaningful part of each customers story, 
+        leaving a lasting impression with each creation.
         </p>
         <button className="learn-more-btn">Learn More</button>
       </div>
