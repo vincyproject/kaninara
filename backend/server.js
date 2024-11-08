@@ -14,9 +14,9 @@ const port = process.env.PORT || 4000;
 // middlewares
 app.use(express.json());
 
-// Konfigurasi CORS
+// Konfigurasi CORS 
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:5174'], // Izinkan kedua origin
+  origin: ['https://kaninara-frontend.vercel.app/', 'https://kaninara-admin.vercel.app/'], // Izinkan kedua origin
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
