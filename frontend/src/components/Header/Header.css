@@ -1,22 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
 .header{
     height: 54vw;
+    margin: 30px auto;
     background: url('/header_img.png') no-repeat;
-    background-size:100% auto;
-    position: center;
-    height: 67vw;
-    width: 100vw;
-    margin-left: calc(-50vw + 50%); /* Ensures the background spans the full width */
-    padding-left: calc(50vw - 50%); /* Center the content within the background */
-    padding-right: calc(50vw - 50%);
+    background-size:cover;
+    position: relative;
+    width: 100%;
     overflow: hidden;
-    margin-bottom: 5vw;
 }
-
 .header-contents{
     position: absolute;
     display: flex;

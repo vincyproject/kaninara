@@ -22,12 +22,11 @@ const Navbar = ({ setShowLogin }) => {
       <ul className="navbar-menu">
         <Link to="/" onClick={() => setMenu("home")} className={`${menu === "home" ? "active" : ""}`}>home</Link>
         <a href='#explore-menu' onClick={() => setMenu("menu")} className={`${menu === "menu" ? "active" : ""}`}>catalog</a>
-        <Link to="/Kategori" onClick={() => setMenu("menu2")} className={`${menu === "menu2" ? "active" : ""}`}>collection</Link> 
+        <a href='#explore-menu2' onClick={() => setMenu("menu2")} className={`${menu === "menu2" ? "active" : ""}`}>catalog2</a>
         <a href='#app-download' onClick={() => setMenu("mob-app")} className={`${menu === "mob-app" ? "active" : ""}`}>class</a>
         <a href='' onClick={() => setMenu("blog")} className={`${menu === "contact" ? "active" : ""}`}>blog</a>
-        <a href='#get-deals' onClick={() => setMenu("contact")} className={`${menu === "contact" ? "active" : ""}`}>contact us</a>
+        <a href='#footer' onClick={() => setMenu("contact")} className={`${menu === "contact" ? "active" : ""}`}>contact us</a>
       </ul>
-
       <div className="navbar-right">
         <img src={assets.search_icon} alt="" />
         <Link to='/cart' className='navbar-search-icon'>
