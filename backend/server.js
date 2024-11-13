@@ -16,7 +16,7 @@ app.use(express.json());
 
 // Konfigurasi CORS 
 app.use(cors({
-  origin: ['https://kaninara-frontend.vercel.app/', 'https://kaninara-admin.vercel.app/'], // Izinkan kedua origin
+  origin: ['http://localhost:5173/', 'http://localhost:5174/'], // Izinkan kedua origin
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
